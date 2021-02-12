@@ -11,8 +11,8 @@ let colorPalette = [];
 function paintPalatte() {
     const colorListItem = document.querySelectorAll("li");
     colorListItem.forEach(li => {
-        let listColor = li.getAttribute('id');
-        li.style.backgroundColor = listColor;
+        let colorId = li.getAttribute('id');
+        li.style.backgroundColor = colorId;
     })
 }
 

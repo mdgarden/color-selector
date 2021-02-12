@@ -31,13 +31,27 @@ margin: 20px;
 margin-bottom: 10px;
 }
 
-.js-colorSelect input {
+.js-colorSelect input:nth-child(2) {
   width: 200px;
+  height: 20px;
   margin: 20px;
+  outline: cadetblue;
+}
+
+.js-colorSelect input:nth-child(3) {
+  font-size: 1.2rem;
+  color: white;
+  width: 150px;
+  height: 30px;
+  margin: 20px;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 5px;
 }
 
 .js-colorSelect  input:focus {
-  outline: solid 3px cadetblue;
+  outline: none;
+  box-shadow: 0 0 5px cadetblue;
 }
 
 #colorList {
@@ -45,15 +59,27 @@ margin-bottom: 10px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 4rem;
 }
 
-#colorList li span {
+#colorList li {
   display: flex;
   width: 150px;
   height: 150px;
   align-items: flex-end;
   justify-content: center;
-  font-size: 1.5rem;
+  margin: 5px;
+}
+
+#colorList li span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 2rem;
+  font-size: 1.2rem;
 }
 
 .is-hidden {
