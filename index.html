@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Color Selector</title>
+</head>
+<body>
+  <div class="container">
+    <h1>컬러 셀렉터</h1>
+		<div class="countColorNum">
+			<form class="js-colorSelect">
+				<label for="countColorNum">생성할 색의 갯수를 입력해주세요 (최소 2개 ~ 최대 10개)</label>
+				<input type="number" id="countColorNum" name="countColorNum" min="2" max="10">
+				<input type="submit" value="팔레트 작성">
+			</form>
+		</div>
+		<ul id="colorList">
+		</ul>
+		<!-- <div class="secondPalatte is-hidden">
+			<form class="js-colorSecondSelect">
+				<label for="countSecondColor">두번째로 추출할 색을 골라주세요(최소 1개 ~ 최대 9개)</label>
+				<input type="number" id="countSecondColor" name="countSecondColor" min="1" max="9">
+				<input type="submit" value="팔레트 작성">
+			</form>
+		</div> -->
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@import "reset.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+.container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.countColorNum {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px;
+}
+
+.js-colorSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.js-colorSelect label {
+margin-bottom: 10px;
+}
+
+.js-colorSelect input {
+  width: 200px;
+  margin: 20px;
+}
+
+.js-colorSelect  input:focus {
+  outline: solid 3px cadetblue;
+}
+
+#colorList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#colorList li span {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.is-hidden {
+  display: none;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: gainsboro;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.secondPalatte {
+  margin: 20px;
+  margin-top: 40px;
+}
